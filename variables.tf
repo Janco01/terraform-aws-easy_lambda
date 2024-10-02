@@ -17,3 +17,13 @@ variable "env_vars" {
     type = map(string)
     default = { }
 }
+
+variable "api_gateway_name" {
+  type = string
+  default = ""
+}
+
+variable "region" {
+  type = string
+  default = ""
+}
